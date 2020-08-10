@@ -1,0 +1,78 @@
+.dialog {
+    width: 20rem;
+    background-color: rgba(220, 220, 220, 0);
+    backdrop-filter: blur(50px);
+}
+
+.nav {
+    background-color: #4ccca1;
+    height: 40px;
+    width: auto;
+}
+
+.d-h {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+    padding-top: 5%;
+    color: #ffffff;
+}
+
+.close-icon {
+    float: right;
+    top: -24px;
+    right: -24px;
+    padding-right: 5%;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-a {
+    position: relative;
+    min-width: 0;
+    padding-top: 5%;
+    box-shadow: darken;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+textarea {
+    height: 70px;
+    width: 80%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    outline: none;
+    resize: none;
+}
+
+.f-a {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+}
+
+mat-form-field {
+    font-size: 10px;
+    width: 140px;
+    padding-top: 2%;
+    background-color: #ffffff;
+}
+
+mat-select {
+    font-size: 10px;
+    width: 60px;
+    margin-left: 25%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+.btn-a {
+    background-color: #4ccca1;
+    color: #ffffff;
+}

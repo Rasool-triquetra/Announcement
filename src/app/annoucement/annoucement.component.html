@@ -1,0 +1,32 @@
+<div class="dialog">
+    <div class="nav">
+        <p class="d-h">
+            Anouncement
+            <span mat-button class="close-icon" [mat-dialog-close]="true">
+        X
+      </span>
+        </p>
+    </div>
+
+    <div mat-dialog-content class="d-c">
+        <div class="d-a">
+            <textarea [(ngModel)]="selectedtypedtext" placeholder="Enter your message">
+      </textarea>
+        </div>
+        <div class="f-a">
+            <mat-form-field appearance="card">
+                <mat-label>Select Annoucement Option</mat-label>
+                <mat-select [(ngModel)]="selectedoption">
+                    <mat-option *ngFor="let sms of sms" [value]="sms.value">
+                        {{ sms.viewValue }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="btn">
+            <button class="btn-a" mat-raised-button (click)="send()">
+        Send
+      </button>
+        </div>
+    </div>
+</div>
